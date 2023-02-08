@@ -1,0 +1,1 @@
+import{r as l,R as e,W as n,P as r}from"./index.ddb875c4.js";import{B as p}from"./Box.a5d65e11.js";const i=l.exports.forwardRef(({children:t,title:a="",...o},s)=>e.createElement(p,{ref:s,...o},e.createElement(n,null,e.createElement("title",null,a)),t));i.propTypes={children:r.node.isRequired,title:r.string};export{i as P};

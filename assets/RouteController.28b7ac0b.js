@@ -1,0 +1,1 @@
+import{r as t,R as o,a as l}from"./index.ddb875c4.js";const f=s=>{const{component:a,...r}=s,[n,e]=t.exports.useState(!0),c=()=>{localStorage.getItem("auth")&&JSON.parse(localStorage.getItem("auth")).isAuth===!0?e(!0):e(!1)};return t.exports.useEffect(c,[]),n?o.createElement(a,{...r}):o.createElement(l,{to:"/login"})};export{f as default};
